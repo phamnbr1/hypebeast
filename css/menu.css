@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  #menu ul {
+    background: #C0C0C0;
+    list-style-type: none;
+    text-align: center;
+    margin-left: -38px;
+  }
+  #menu ul li {
+    color: #5e5d57;
+    display: inline-table;
+    width: 130px;
+    height: 65px;
+    line-height: 50px;
+    position: relative;
+    
+
+  
+    
+
+ 
+  }
+  #menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-family: sans-serif;
+    font-weight: 600;
+
+  }
+  #menu a.num1:hover {
+    transform:scale(1.1); 
+    background: #C0C0C0;
+    color: #00F5FF;
+    box-shadow: 0px 8px 16px 0px #00F5FF;
+    transition: 0.5s;
+  }
+  
+ 
+  #menu ul form{
+    display: inline-block;
+    margin-right: 30px;
+    padding-left: 10px;
+  }
+  #menu ul li.logo{
+    top:16px;
+    
+
+    
+    }
+  #menu ul li.logo img{
+    width:53px;
+    height: 40px;
+
+  }
+
+  #menu ul li>.sub-menu{
+    display: none;
+    position: absolute;
+    margin-left: -1px;
+    margin-top: 3px;
+
+  }
+  #menu ul li:hover .sub-menu{
+    display: block;
+
+  }
+ 
+   input[type=text]{
+    padding: 10px;
+    font-size: 14px;
+    margin-top: -10px;
+    border-radius: 35px 35px 35px 35px;
+    width:250px;
+     
+  }
+
+  .nut{
+
+    float:right;
+    background:#4c504e;
+    color: white;
+    clip-path: circle(45% at 50% 50%); 
+    cursor: pointer;
+    position: relative;
+    font-size:16px;
+    padding: 10px;
+    margin-left: 6px;
+    top:-10px;  
+     
+
+  }
+  button:hover{
+    transform: scale(1.2);
+  }

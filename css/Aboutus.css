@@ -1,0 +1,49 @@
+  
+    body{
+        background:linear-gradient(to right, #fffefe, #000000);
+        margin-bottom: 100px;
+        padding: 0;
+        font-family: sans-serif;
+        
+    }
+  #h1{
+        background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-creative-literary-office-leisure-entertainment-background-material-image_135914.jpg);
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        background-size: cover;
+        height: 400px;
+        background-repeat: no-repeat;
+     }
+     h2{
+        text-align: center;
+     }
+     #d1{
+         color: black;
+         text-align: center;
+         font-size: 20px;
+     }
+.doan2{
+    width: 650px;
+    opacity: 0.6;
+    text-align: justify;
+    font-size: 20px;
+}
+.p2{
+    
+    background-image: url(https://previews.123rf.com/images/victoriabee/victoriabee1705/victoriabee170500041/79606758-keyboard-gift-box-and-decorations-over-vintage-background-copy-space-flat-lay.jpg);
+background-size: cover;
+}
+.p3{
+    background-image: url(https://previews.123rf.com/images/perhapzzz/perhapzzz1802/perhapzzz180201036/97961989-office-desk-table-with-supplies-flat-lay-business-workplace-and-objects-top-view-copy-space-for-text.jpg);
+    background-size: cover;
+}
+.doan3{
+    margin-left: 580px;
+    width: 650px;
+    opacity: 0.6;
+    text-align: justify;
+    font-size: 20px;
+}
+#h32{
+    text-align: right;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bodyscape</title>
+	<link rel="stylesheet" type="text/css" href="../css/bodyscape,layout.css">
+	<link rel="stylesheet" type="text/css" href="../css/sideshow1.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/home.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" 
+	integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+	crossorigin="anonymous">
+
+
+
+	<style type="text/css">
+		@font-face {
+            font-family: proxima-nova;
+            src: url(https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/l?subset_id=2&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/d?subset_id=2&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/a?subset_id=2&fvd=n7&v=3) format("opentype");
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: proxima-nova;
+            src: url(https://use.typekit.net/af/27776b/00000000000000003b9b0939/27/l?subset_id=2&fvd=n6&v=3) format("woff2"), url(https://use.typekit.net/af/27776b/00000000000000003b9b0939/27/d?subset_id=2&fvd=n6&v=3) format("woff"), url(https://use.typekit.net/af/27776b/00000000000000003b9b0939/27/a?subset_id=2&fvd=n6&v=3) format("opentype");
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: proxima-nova;
+            src: url(https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/l?subset_id=2&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/d?subset_id=2&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/a?subset_id=2&fvd=n4&v=3) format("opentype");
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: proxima-nova;
+            src: url(https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/l?subset_id=2&fvd=n3&v=3) format("woff2"), url(https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/d?subset_id=2&fvd=n3&v=3) format("woff"), url(https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/a?subset_id=2&fvd=n3&v=3) format("opentype");
+            font-weight: 300;
+            font-style: normal;
+        }
+	</style>
+</head>
+<body>
+	<nav id ="menu">
+		<ul>
+			<li class="logo" ><a href="../home.html"><img src="../img/cam.png" ></a></li> 
+			<form>
+				<input type="text" name="search" placeholder="search">
+				<button class="nut"><i class="fas fa-search"></i></button>
+			</form>
+			 <li  ><a class="num1" href="#">PHOTOS</a>
+			 	<ul class="sub-menu" >
+			 		
+			 		<li><a class="num1" href="#">TOP PHOTOS</a></li>
+			 	</ul>
+			 </li>
+			 <li><a class="num1" href="blog.html">BLOGS</a></li>
+			 <li ><a  class="num1" href="contact.html">CONTACT</a></li>
+			 <li ><a class="num1" href="about-us.html">ABOUT</a></li>
+			 <li ><a  class="num1" href="login.html">LOGIN</a></li>
+			 <li ><a  class="num1" href="join.html">REGISTER</a></li>
+		</ul>
+		
+	</nav>
+
+	<div class="banner" >
+			<div class="logo-text text-center">
+			<h1>HYPEBEAST</h1>
+			</div>
+	</div>
+
+
+
+	<div class="slide-bodyscape">
+		<div class="anhslide" >
+  			<img class="mySlides" src="../img/bodyscape/L0.jpg" >
+  			<img class="mySlides" src="../img/bodyscape/L1.jpg" >
+  			<img class="mySlides" src="../img/bodyscape/L2.jpg" >
+  			<img class="mySlides" src="../img/bodyscape/L3.jpg" >
+  			<img class="mySlides" src="../img/bodyscape/L4.jpg" >
+  			<img class="mySlides" src="../img/bodyscape/L5.jpg" >
+  			<img class="mySlides" src="../img/bodyscape/L6.jpg" >
+  			<img class="mySlides" src="../img/bodyscape/L7.jpg" >
+  			<img class="mySlides" src="../img/bodyscape/L8.jpg" >
+  			<img class="mySlides" src="../img/bodyscape/L9.jpg" >
+  
+
+		</div>
+
+		<div class="center">
+  			<div class="section">
+    			<button class="button-body" onclick="plusDivs(-1)">❮ Prev</button>
+    			<button class="button-body" onclick="plusDivs(1)">Next ❯</button>
+  			</div>
+  				<button class="button-body demo" onclick="currentDiv(1)">1</button> 
+  				<button class="button-body demo" onclick="currentDiv(2)">2</button> 
+  				<button class="button-body demo" onclick="currentDiv(3)">3</button> 
+  				<button class="button-body demo" onclick="currentDiv(4)">4</button>
+  				<button class="button-body demo" onclick="currentDiv(5)">5</button>
+  				<button class="button-body demo" onclick="currentDiv(6)">6</button>
+  				<button class="button-body demo" onclick="currentDiv(7)">7</button>
+  				<button class="button-body demo" onclick="currentDiv(8)">8</button>
+  				<button class="button-body demo" onclick="currentDiv(9)">9</button>
+  				<button class="button-body demo" onclick="currentDiv(10)">10</button>
+		</div>
+
+	</div>
+
+
+	<div class="content-body">
+		<div class="bentrai" >
+			<div class="chude"><h1 id="hat1">BODYSCAPE</h1>
+				<p>
+					&emsp;Bodyscape photography is the art of clicking images of nude human subjects in a manner that is not erotic yet is mesmerizing.<br>
+					&emsp;This type of photography is generally carried out in black and white in a environment where the natural elements can be easily integrated into the pictures.</p></div>
+			<div class="co-anh "><img class="anhtrai" src="../img/bodyscape/L0.jpg"></div>
+			<div class="khong-anh">
+				<p>
+					"Life is a story. Make yours the best seller"
+				</p>
+			</div>
+			<div class="co-anh "><img class="anhtrai" src="../img/bodyscape/L1.jpg"></div>
+			<div class="khong-anh">
+				<p>
+					"Silence is the most powerful scream."
+				</p>
+			</div>
+			<div class="co-anh "><img class="anhtrai" src="../img/bodyscape/L2.jpg"></div>
+			<div class="khong-anh">
+				<p>
+					"We could never learn to be brave and patient, if there were only joy in the world."
+				</p>
+			</div>
+			</div>
+		<div class="benphai">
+			<div class="co-anh ">
+				<img class="anhphai" src="../img/bodyscape/L3.jpg">
+			</div>
+			<div class="khong-anh">
+				<p>
+					"Life is the greatest  journey you will be ever on."
+				</p>
+			</div>
+			<div class="co-anh  ">
+				<img class="anhphai" src="../img/bodyscape/L4.jpg">
+			</div>
+			<div class="khong-anh">
+				<p>
+					"adness flies away on the wings of time"
+					
+				</p>
+			</div>
+			<div class="co-anh  ">
+				<img class="anhphai" src="../img/bodyscape/L5.jpg">
+			</div>
+			<div class="khong-anh">
+				<p>
+					"Life is short. Smile while you still have teeth!"
+				</p>
+			</div>
+			<div class="co-anh  ">
+				<img class="anhphai" src="../img/bodyscape/L6.jpg">
+			</div>
+			<div class="khong-anh">
+				<p>
+					"Everybody laughs in the same language."
+					
+				</p>
+			</div>
+			<div class="co-anh  ">
+				<img class="anhphai" src="../img/bodyscape/L7.jpg">
+			</div>
+			
+
+		</div>
+	</div>
+	<div class="icon">
+        <p><b>HYPEBEAST</b></p><br>
+        <i class="fab fa-facebook-square fa-2x"></i>
+        <i class="fas fa-camera-retro fa-2x"></i> 
+        <i class="fab fa-twitter-square fa-2x"></i>  
+        <i class="fab fa-app-store-ios fa-2x"></i>
+        <i class="fab fa-whatsapp-square fa-2x"></i>
+    </div>
+    <div class="ket">
+        <p style="letter-spacing:10px;">
+            @HYPEBEAST 2020<BR></p>
+           <p>   Có hai cách để thây đổi cuộc đời bạn: <br>bắt đầu những hành động tích cực<br>hoặc ngừng những hành động tiêu cực!  
+        </p>
+    </div>
+	<script type="text/javascript" src="../js/architectural.js"></script>
+</body>
+</html>

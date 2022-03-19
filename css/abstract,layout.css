@@ -1,0 +1,183 @@
+*{
+	margin:0 ;
+	padding:0;
+	box-sizing:border-box;
+
+}
+.logo-text{
+	width: 100%;
+	height:500px;
+	
+	
+}
+.ND{
+	width: 1315px;
+	height: 1000px;
+	display: inline-table;
+}
+.trai{
+	width: 25%;
+	height: 100%;
+
+	background-color: rgba(12,12,12,0.9);
+	float:left;
+	z-index: 10;
+
+}
+.slide-show{
+	
+	margin-left: 25%;
+	width:73.5%;
+	height: 50%;
+	background: pink;
+}
+.pic{
+	margin-left: 25%;
+	width: 75%;
+	height: 50%;
+	
+	position: relative;
+
+}
+.o1
+{	
+	
+	float:left;
+	width: 325px;
+	height: 500px;
+	
+	
+}
+.o2{
+	float:left;
+	width: 325px;
+	height: 500px;
+	
+	
+}
+.o3{
+	float: left;
+	width: 313px;
+	height: 500px;
+	
+}
+.item1
+{
+	width: 100%;
+	height: 50%;
+	
+}
+.item1:hover
+{
+	transform: scale(1.2);
+	transition: 0.9s;
+}
+.item2{
+
+width: 100%;
+	height: 50%;
+	
+}
+.item2:hover
+{
+	transform: scale(1.2);
+	transition: 0.9s;
+}
+.item3
+{
+width: 100%;
+	height: 30%;
+	
+}
+.item3:hover
+{
+	transform: scale(1.2);
+	transition: 0.9s;
+}
+.item4
+{
+	width: 100%;
+	height: 40%;
+	
+
+}
+.item4:hover
+{
+	transform: scale(1.2);
+	transition: 0.9s;
+}
+.item5
+{
+	width: 100%;
+	height: 30%;
+	}
+	.item5:hover
+{
+	transform: scale(1.2);
+	transition: 0.9s;
+}
+.item6
+{
+	width: 100%;
+	height: 35%;
+	
+
+
+}
+.item6:hover
+{
+	transform: scale(1.2);
+	transition: 0.9s;
+}
+.item7{
+width: 100%;
+height: 35%;
+
+}
+.item7:hover
+{
+	transform: scale(1.2);
+	transition: 0.9s;
+}
+.item8
+{
+width: 100%;
+height: 30%;
+	
+	
+}
+.item8:hover
+{
+	transform: scale(1.2);
+	transition: 0.9s;
+}
+
+
+.trai h1{
+	margin-top: 10%;
+	font-family: proxima-nova;
+	font-weight: bolder;
+	letter-spacing: 0.125em;
+	color: white;
+	font-size: 47px;
+
+}
+.trai p{
+	margin-top: 5%;
+	font-family: proxima-nova;
+	font-size: 20px;
+	letter-spacing: 0.125em;
+	color: white;
+} 
+.image1
+{
+	width: 100%;
+	height: 100%;
+}
+.footer{
+	clear: both;
+	display: block;
+	background-color: orange;
+	width: 100%;
+	height: 300px;
+}

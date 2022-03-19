@@ -1,0 +1,163 @@
+
+.slide-bodyscape{
+	margin:auto;
+	width: 98.8%;
+	height: 574px;
+	
+	
+}
+.content-body{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 2000px;
+	
+	position: relative;
+	box-sizing: border-box;
+}
+.bentrai
+{
+	height: 100%;
+	width:50%;
+	
+	float: left;
+}
+.benphai{
+	margin-left: 50%;
+	height: 100%;
+	width: 50%;
+	
+}
+.co-anh
+{
+
+	width: 100%;
+	height: 222.2px;
+	
+}
+
+.khong-anh{
+	width: 100%;
+	height:222.2px;
+	color: white;
+	background:#696969;
+	text-align: center;
+	font-size: 33px;
+	position: relative;
+	
+
+}
+.khong-anh p{
+	padding-top: 15%;
+	font-style: italic;
+}
+.anhtrai{
+	width: 100%;
+	height: 100%;
+	transition: all 1s;
+	 
+}
+.anhtrai:hover{
+	transform:translate(100px); 
+
+}
+.anhphai{
+	margin: auto;
+	width:99.8%;
+	height: 100%;
+	transition: all 2s;
+
+}
+.anhphai:hover
+{
+	transform: rotate(1800deg);
+
+}
+
+.chude{
+	width: 100%;
+	height: 666.6px;
+	font-family: proxima-nova;
+	background:#363636;
+	color: white;
+
+	
+}
+#hat1{
+	margin-top: 0;
+	font-size: 45px;
+	letter-spacing: 0.2em; 
+}
+
+.chude p{
+	font-size: 36px;
+}
+
+.-butto-body{
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+}
+.anhslide{
+	margin-left:auto;
+	margin-right:auto;
+
+	}
+.anhslide{
+		width: 600px;
+		height: 500px;}
+
+.center{text-align:center}
+
+.red,.hover-red:hover
+{color:#fff;
+	background-color:#f44336}
+
+	.button-body{
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+}
+.anhslide{
+	margin-left:auto;
+	margin-right:auto;
+
+	}
+.anhslide{
+		width: 100%;
+		height: 500px;}
+
+
+.mySlides{
+	width: 100%;
+	height: 500px;
+}
+
+
+
+
+
+.center{text-align:center;
+	margin-top: 5px;
+
+}
+
+.red,.hover-red:hover
+{color:#fff;
+	background-color:#f44336}

@@ -1,0 +1,81 @@
+body {
+    background:linear-gradient(to right, #78e8f0, #f5f77c);
+
+}
+table {
+    width: 500px;height: 200px;
+}
+h3{
+    margin: auto;
+    width: 90%;letter-spacing:10px;
+}
+p{
+    margin: auto;
+    margin-top: auto;
+    width: 95%;
+
+}
+ #h1{
+    
+    font-size: 30px;background-color: black;color: white;
+    height: 200px;
+    text-align: left;
+ }
+
+h2{
+    text-align: center;
+}
+div.doan2{
+    opacity: 0.6;
+    margin-top: 200px;
+}
+.mail{
+        border-spacing: 90px; 
+}
+.icon{
+   margin-left: 550px;
+   margin-top: 200px; 
+   letter-spacing:10px;
+}
+.ket{
+    margin-left: 50px;
+    margin-top: 200px; 
+    text-align: center;
+    margin-bottom: 200px;
+    opacity: 0.5;
+    
+}
+.container {
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: wwhite;
+    padding: 20px;
+    box-shadow: 2px 8px 15px 0px;
+}
+    input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+ 
+}
+ 
+input[type=submit] {
+    background-color: #434443;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+    
+}
+ 
+input[type=submit]:hover {
+    background-color: #4eb6b9;
+}

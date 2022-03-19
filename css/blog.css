@@ -1,0 +1,23 @@
+
+#h1{
+    background-image: url(../img/blog/1235.jpg);
+    font-size: 30px;background-color: black;color: white;
+    background-size: 1285px 720px;
+    height: 500px;
+    text-align: center;
+    font-family: sans-serif;
+ }
+#p1{
+    font-size: 30px;background-color: none;color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+p{
+    color: whitesmoke(0, 0, 0);
+    text-align: left;
+    opacity: 0.6;
+}
+.cau{
+    font-family: sans-serif;
+    color: whitesmoke;
+}
